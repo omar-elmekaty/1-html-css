@@ -1,0 +1,381 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: roboto;
+
+}
+.clear{
+	content: " ";
+	clear: both;
+}
+.myPage{
+margin-left: 9%;
+background-color: black;
+}
+hr{
+  width: 250px;
+  color:#616161;
+}
+/*Start of SideBar*/
+
+ #opacityImg{
+  width: 100%;
+  height: 130px;
+  margin-bottom: -5px;
+}
+.sideBar{
+  width: 9%;
+  height: 100%;
+  background-color:#222222;
+  position: fixed;
+}
+.linkSide a:first-child{
+  background-color: black;
+}
+ .sideBar a{
+   display: block;
+   width: 100%;
+   height: 100px;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+ }
+ .sideBar a:hover{
+   background-color: black;
+ }
+
+ .sideBar i{
+   font-size: 2.5em;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+ .sideBar p{
+   font-size: .8em;
+ }
+/*End of SideBar*/
+/*********************************/
+/*Start of main Page*/
+
+/*Start of header*/
+
+.headerH1{
+  display: block;
+  width: 100%;
+  height: 200px;
+  color: white;
+  background-color: black;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 2.5em;
+}
+.headerH1 h1,.headerH1 p{
+padding-bottom: 10px;
+}
+header img{
+  width: 100%;
+}
+/*End of header*/
+.container{
+  width: 950px;
+  margin: auto;
+}
+
+/*Start of About Me*/
+.aboutMe h2{
+  color: white;
+  font-size: 1.5em;
+  padding-bottom: 7px;
+}
+.aboutMe p{
+  color: #616161;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  line-height: 1.5em;
+  font-size: 1.1em;
+
+}
+/*End of About Me*/
+
+/*Start of My Skills*/
+.mySkills h3{
+  color: white;
+}
+.mySkills p{
+  color: #616161;
+  padding: 30px 0 30px 0;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+.mySkills .bigBox{
+  width: 100%;
+  height: 30px;
+  background-color: white;
+}
+.mySkills .smallBox1{
+  width: 95%;
+  height: 30px;
+  background-color: #616161;
+}
+.mySkills .smallBox2{
+  width: 85%;
+  height: 30px;
+  background-color: #616161;
+}.mySkills .smallBox3{
+  width: 75%;
+  height: 30px;
+  background-color: #616161;
+}
+.mySkills .whiteBox{
+background-color: #F1F1F1;
+width: 100%;
+height: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+display: flex;
+}
+.mySkills .whiteBox div{
+  flex-direction: column;
+  width: 25%;
+  text-align: center;
+  padding:40px 10px 40px 30px;
+
+}
+.mySkills .whiteBox span{
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.mySkills button{
+  display: flex;
+  background-color: #F1F1F1;
+  width: 200px;
+  height: 50px;
+  border-style: none;
+}
+.mySkills button:hover{
+  background: lightgray;
+}
+.mySkills i{
+  font-size: 1em;
+  width: 25%;
+	padding-top: 10px;
+}
+.mySkills span{
+  font-size: 1.2em;
+  padding-top: 9px;
+	width: 70%;
+}
+/*End of my Skills*/
+
+/*start of myPrice*/
+.myPrice h3{
+  color: white;
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+.bigBox2{
+  width: 100%;
+  margin-top: 40px;
+}
+.smallBox{
+  float: left;
+  width: 50%;
+}
+.smallBoxf{
+  padding-left: 15px;
+}
+.smallBox ul{
+  list-style-type: none;
+}
+.smallBox ul li{
+  display: block;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+.smallBox .liDark{
+  color: #999999;
+  height: 100px;
+  background-color:#3A3A3A;
+  padding: 30px;
+  font-size: 2em;
+
+}
+.smallBox .liDark:hover{
+  background-color: gray;
+}
+.smallBox .liLight{
+  color:#3A3A3A;
+  background-color: #999999;
+  padding: 20px;
+  font-size: 1.1em;
+}
+.smallBox .liLight:hover{
+  background-color: white;
+}
+.smallBox .liButton{
+  height: 100px;
+  color:#3A3A3A;
+  background-color: #919191;
+  font-size: .9em;
+}
+.smallBox .liButton:hover{
+  background-color: lightgray;
+}
+.smallBox button{
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  color:#3A3A3A;
+  background-color: #999999;
+  border-style: none;
+}
+/*end of my Price*/
+
+/*start of my reputaions*/
+.myReputaions h3{
+  color: white;
+  padding: 30px 0 30px 0;
+  font-size: 1.5em;
+}
+.myReputaionsFlex{
+  display: flex;
+
+}
+.myReputaionsFlexP{
+  width: 40%;
+}
+.myReputaions img{
+  border-radius: 50%;
+  width: 40%;
+  margin-right: 30px;
+}
+.myReputaions p{
+  color: #999999;
+  font-size: 1.3em;
+}
+.myReputaions span{
+
+  font-size: 1.3em;
+}
+/*End of My Reputaions*/
+
+/*start of Photos*/
+
+.photosDiv h2{
+
+  color: white;
+  padding: 30px 0 30px 0;
+  font-size: 1.5em;
+}
+.photos{
+  margin-top: 40px;
+  width: 100%;
+}
+.photos img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.photos1{
+  width: 50%;
+  float: left;
+}
+.photos2{
+  width: 50%;
+  float: left;
+}
+/*End of photos*/
+
+
+/*start of Contact Me*/
+.contactMe .icons{
+  margin-top: 20px;
+}
+.contactMe h2{
+  color: white;
+  padding: 30px 0 30px 0;
+  font-size: 1.5em;
+}
+.contactMe p i{
+  font-size: 3em;
+  color: white;
+  padding-right: 10px;
+	padding-top: 10px;
+}
+.contactMe p{
+  font-size: .8em;
+  color: #999999;
+}
+.contactMe form input{
+  display: block;
+  width: 100%;
+  padding: 22px;
+  margin: 15px 0 15px 0;
+}
+.contactMe form button{
+  color: black;
+  background-color: #F1F1F1;
+  width: 200px;
+  height: 50px;
+  border-style: none;
+  text-align: left;
+  padding-left: 20px;
+
+}
+.contactMe form button i{
+  font-size: 1em;
+}
+/*End of Contact Me*/
+
+
+/*Footer*/
+footer{
+  padding-top: 40px;
+
+}
+footer i{
+  color: #999999;
+  font-size: 1.2em;
+}
+
+/*END of main Page*/
+/*********************************/
+@media (max-width:1000px) {
+	#opacityImg{
+		display: none;
+	}
+	.sideBar{
+		width: 100%;
+		height: 9%;
+		background-color: #222222;
+		opacity: .8;
+	}
+	.sideBar a{
+		display: inline-block;
+		width: 20%;
+		height: auto;
+		padding-left: 10px;
+		font-size: 1em;
+	}
+
+	.sideBar i{
+		font-size:.8em;
+		padding-top: 2px;
+		margin-bottom: 2px;
+	}
+ .sideBar	p{
+		font-size: .8em;
+	}
+	.myPage{
+		margin-left: 0;
+	}
+}
