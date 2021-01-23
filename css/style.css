@@ -155,7 +155,7 @@ display: flex;
 }
 
 .mySkills button{
-  display: flex;
+  color: black;
   background-color: #F1F1F1;
   width: 200px;
   height: 50px;
@@ -226,7 +226,7 @@ display: flex;
   height: 100px;
   color:#3A3A3A;
   background-color: #919191;
-  font-size: .9em;
+  
 }
 .smallBox .liButton:hover{
   background-color: lightgray;
@@ -238,6 +238,7 @@ display: flex;
   color:#3A3A3A;
   background-color: #999999;
   border-style: none;
+    font-size: .9em;
 }
 /*end of my Price*/
 
@@ -344,18 +345,19 @@ footer{
 }
 footer i{
   color: #999999;
-  font-size: 1.2em;
+  font-size: 3em;
+    padding: 10px;
 }
 
 /*END of main Page*/
 /*********************************/
-@media (max-width:1000px) {
-	#opacityImg{
+@media  (max-width:1024px){
+    #opacityImg{
 		display: none;
 	}
 	.sideBar{
 		width: 100%;
-		height: 9%;
+		height: auto;
 		background-color: #222222;
 		opacity: .8;
 	}
@@ -364,7 +366,112 @@ footer i{
 		width: 20%;
 		height: auto;
 		padding-left: 10px;
-		font-size: 1em;
+		font-size: 2.2em;
+	}
+    .linkSide a:first-child{
+    padding-top: 5px;
+}
+
+	.sideBar i{
+		font-size:.8em;
+		padding-top: 2px;
+		margin-bottom: 2px;
+	}
+ .sideBar	p{
+		font-size: .8em;
+	}
+	.myPage{
+		margin-left: 0;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+	}
+    .aboutMe h2{
+  color: white;
+  font-size: .9em;
+  padding-bottom: 7px;
+}
+    .aboutMe p{
+  color: #616161;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  line-height: 1em;
+  font-size: .9em;
+
+}
+
+    .mySkills h3{
+  font-size: 2.8em;
+}
+    .mySkills p{
+  font-size: 2.3em;
+}
+    .mySkills .whiteBox span{
+  font-size: 2.8em;
+
+}
+.mySkills button{
+    
+    padding: 10px;
+  font-size: 1.2em;
+    width: 250px;
+    
+}
+    .smallBox .liDark{
+ 
+  font-size: 2.8em;
+
+}
+    .smallBox .liLight{
+  
+  font-size: 1.8em;
+}
+    .smallBox .liButton{
+        font-size: 1.9em;
+    }
+.myReputaions p{
+ 
+  font-size: 1.4em;
+    }
+ .contactMe p i{
+  font-size: 2.8em;
+ 
+	padding-top: 30px;
+    }
+    .contactMe form input{
+  font-size: 2em;
+    }
+    .contactMe form button{
+        width: 230px;
+        padding: 10px;
+   font-size: 1.4em;
+    }
+}
+@media (min-width:376px) and (max-width:425px){
+    
+}
+@media (min-width:426px) and (max-width:768px){
+   
+}
+@media (min-width:769px) and (max-width:1440px){
+    
+}
+/*@media (max-width:1000px) {
+	#opacityImg{
+		display: none;
+	}
+	.sideBar{
+		width: 100%;
+		height: 5%;
+		background-color: #222222;
+		opacity: .8;
+	}
+	.sideBar a{
+		display: inline-block;
+		width: 20%;
+		height: auto;
+		padding-left: 10px;
+		font-size: 2.3em;
 	}
 
 	.sideBar i{
@@ -377,5 +484,71 @@ footer i{
 	}
 	.myPage{
 		margin-left: 0;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
 	}
+    .aboutMe h2{
+  color: white;
+  font-size: 0.9em;
+  padding-bottom: 7px;
 }
+    .aboutMe p{
+  color: #616161;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  line-height: 1em;
+  font-size: 0.8em;
+
+}
+
+    .mySkills h3{
+  font-size: 2.8em;
+}
+    .mySkills p{
+  font-size: 2.3em;
+}
+    .mySkills .whiteBox span{
+  font-size: 2.8em;
+
+}
+.mySkills button{
+    
+    padding: 10px;
+  font-size: 1.2em;
+    width: 250px;
+    
+}
+    .smallBox .liDark{
+ 
+  font-size: 2.8em;
+
+}
+    .smallBox .liLight{
+  
+  font-size: 1.8em;
+}
+    .smallBox .liButton{
+        font-size: 1.9em;
+    }
+.myReputaions p{
+ 
+  font-size: 1.4em;
+}
+ .contactMe p i{
+  font-size: 2.8em;
+ 
+	padding-top: 30px;
+}
+    .contactMe form input{
+  font-size: 2em;
+}
+    .contactMe form button{
+        width: 230px;
+        padding: 10px;
+   font-size: 1.4em;
+
+
+}
+}*/
+
