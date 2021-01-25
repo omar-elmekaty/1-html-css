@@ -386,6 +386,29 @@ footer i{
         padding-left: 20px;
         padding-right: 20px;
 	}
+    .smallBox{
+  float: none;
+  width: 99%;
+        margin-top: 20px;
+}
+    .smallBoxf{
+        padding: 0;
+    }
+
+
+/*photos*/
+    .photos1{
+  width: 99%;
+  float: none;
+}
+.photos2{
+  width: 99%;
+  float: none;
+}
+    .bigImg{
+        width: 100%;
+        height: 800px;
+    }
     .aboutMe h2{
   color: white;
   font-size: .9em;
